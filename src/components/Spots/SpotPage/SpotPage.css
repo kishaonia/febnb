@@ -1,0 +1,336 @@
+.spotPage-div {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 0px 40px;
+    padding-top: 15px;
+    font-family: Roboto, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.spot-name-title {
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Circular', 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-family: 'Circular', 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 6px;
+    width: fit-content;
+}
+
+.fa-star {
+    padding-top: 3px;
+}
+
+#num-reviews {
+    text-decoration: underline;
+}
+
+#location {
+    text-decoration: underline;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.add-img-modal {
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+    list-style: none;
+    width: 33%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.add-img-modal:hover {
+    background-color: rgba(225, 225, 225, 0.25);
+}
+
+
+.edit-modal {
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+    list-style: none;
+    width: 33%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.edit-modal:hover {
+    background-color: rgba(225, 225, 225, 0.25);
+}
+
+.delete-modal {
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+    list-style: none;
+    width: 33%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.delete-modal:hover {
+    background-color: rgba(225, 225, 225, 0.25);
+}
+
+.delete {
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    height: auto;
+    text-decoration: underline;
+}
+
+.fa-pen-to-square {
+    padding-right: 3px;
+}
+
+.fa-square-minus {
+    padding-right: 3px;
+}
+
+.fa-image {
+    padding-right: 3px;
+}
+
+.img-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.big-picture {
+    height: 100%;
+    width: 50%;
+    padding-right: 3px;
+}
+
+
+.small-picture {
+    height: 50%;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 734px) {
+    .big-picture {
+        width: 100%;
+    }
+
+    .small-picture {
+        display: none;
+    }
+}
+
+#pic-1 {
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+}
+
+#pic-2 {
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+
+#pic-3 {
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+}
+
+#pic-4 {
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+
+.owner-info {
+    font-family: 'Circular', 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+    margin-bottom: 0;
+}
+
+.rooms-etc {
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.spot-info {
+    border-bottom: 1px solid rgba(165, 165, 165, 0.4);
+}
+
+.spot-description {
+    font-family: 'Circular', 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.spot-page-review-container {
+    padding-top: 3px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.spot-reviews-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Circular', 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+.spot-reviews-header-left {
+    display: flex;
+    width: fit-content;
+    justify-content: left;
+
+}
+
+.spot-reviews-header-left h2 {
+    padding-right: 12px;
+}
+
+
+
+#star {
+    align-self: center;
+    font-size: 65%;
+    padding-bottom: 5px;
+}
+
+.spot-reviews-header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    width: fit-content;
+    list-style: none;
+    cursor: pointer;
+}
+
+#leave-review-icon {
+    padding-right: 8px;
+}
+
+.spots-review-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(165, 165, 165, 0.4);
+    overflow-wrap: break-word;
+}
+
+.review-spots-card {
+    width: 45%;
+    margin-bottom: 10px;
+    height: fit-content;
+}
+
+@media (max-width: 1120px) {
+    .review-spots-card {
+        width: 100%;
+    }
+}
+
+.spots-review-card-top-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    max-height: 20%;
+}
+
+.spots-review-top-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#user-logo-review {
+    color: #ff5a5f;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.review-name-date {
+    font-family: 'Circular', 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+    padding-left: 12px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+}
+
+.review-name-date p {
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.review-user-name {
+    font-size: 15px;
+}
+
+.review-date {
+    font-size: 12px;
+    color: gray
+}
+
+.spots-review-top-right {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Circular', 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    color: darkgray;
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+.review-spots-text {
+    font-family: 'Circular', 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+    font-size: 18x;
+}

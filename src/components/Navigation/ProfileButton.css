@@ -1,0 +1,139 @@
+.profile-dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: fit-content;
+    min-width: 120px;
+    width: fit-content;
+
+    border-radius: 8px;
+    margin: 8px;
+    list-style: none;
+    position: absolute;
+    top: 33px;
+    right: 0px;
+    background-color: white;
+}
+
+.profile-button-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 75px;
+    height: 30px;
+}
+
+.profile-button {
+    background-color: #ffffff;
+    border: 0.1px solid #dddddd;
+    border-radius: 20px;
+    color: gray;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 0;
+    width: 75px;
+    height: 30px;
+}
+
+.profile-button-bars-div {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+
+.profile-button-container:hover {
+    background-color: #ffffff;
+    border-radius: 21px;
+    box-shadow: -2px 3px 1px rgba(165, 165, 165, 0.2);
+    transition-property: box-shadow;
+    transition-duration: 0.3s;width: 100px;
+}
+
+#solid-bars {
+    margin-right: 7px;
+    color: gray;
+    font-size: 15px;
+}
+
+.dropdown-menu {
+    width: 100%;
+    height: inherit;
+}
+
+.log-in-sign-up {
+    text-align: left;
+    width: 100%;
+    height: inherit;
+    font-family: 'Circular', 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    transition-property: all;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid rgba(165, 165, 165, 0.2);
+}
+
+
+#sign-up-modal {
+    font-family: inherit;
+    padding: 10px;
+    transition-property: all;
+}
+
+#sign-up-modal:hover {
+    background-color: rgba(165, 165, 165, 0.1);
+}
+
+#log-in-modal {
+    font-family: inherit;
+    padding: 10px;
+    transition-property: all;
+    border-bottom: 2px solid rgba(165, 165, 165, 0.2);
+}
+
+#log-in-modal:hover {
+    background-color: rgba(165, 165, 165, 0.1);
+}
+
+.profile-info-actions {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: inherit;
+    font-family: 'Circular', 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    transition-property: all;
+}
+
+#profile-email {
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(165, 165, 165, 0.2);
+}
+
+#demo-user-button {
+    margin-top: 5px;
+    height: 25px;
+    width: 100%;
+    text-align: left;
+}
+
+#demo-user-button:hover {
+    background-color: rgba(165, 165, 165, 0.1);
+}
+
+#my-spots-button {
+    margin-top: 0;
+    height: 25px;
+}
+
+#logout-button {
+    margin-top: 5px;
+    height: 25px;
+}
